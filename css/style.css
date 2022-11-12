@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: darkgreen;
+    position: sticky;
+    top: 0;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+}
+nav ul li{
+    position: relative;
+}
+nav ul li a{
+    color: orange;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    font-display: sans-serif;
+}
+
+nav ul li:hover a{
+    background-color: black;
+}
+nav ul li ul{
+    position: absolute;
+    left: 50px;
+    display: none;
+    background-color: black;
+}
+
+nav ul li:hover ul{
+    display: block;
+}
+
+nav ul li ul li a{
+    color: white;
+}
+div{
+    height: 500px;
+    background:url(../img/06.jpg);
+    background-size: cover;
+    
+}
+
+button{
+    position: fixed;
+    bottom: 20px; right: 20px;
+    color: black;
+    background-color: yellow;
+}
